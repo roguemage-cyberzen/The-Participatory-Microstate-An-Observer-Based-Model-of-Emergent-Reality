@@ -19,3 +19,18 @@ This project requires a Python environment:
 Install all required dependencies with a single command:
 ```bash
 pip install mpmath pandas matplotlib streamlit
+```
+
+### Source Code Ecosystem: What to Download
+To run the full lab, download the following core scripts from this repository:
+
+1. The Central Hubs
+
+* master_control.py: The OS-style entry point. Use this to launch individual modules or batch simulations from the command line.
+* reality_dashboard.py: The primary visual laboratory. This script launches the interactive Streamlit dashboard for real-time stress testing.
+
+2. Analysis & Data Harvesting
+
+* stability_grid_search.py: A high-speed simulation engine that maps thousands of reality configurations to generate the Stability Matrix.
+* deep_search_anomalies.py: Scans for Gödelian Survivors—rare instances where quantum states persist despite high environmental pressure.
+* generate_report.py: Processes raw simulation data into formatted Reality Reports (.txt) for your research log.
