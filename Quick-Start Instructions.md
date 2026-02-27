@@ -95,3 +95,24 @@ To prevent this specific collapse and maintain a quantum state for at least **20
 * **Calculate:** The **Optimizer Tool** determines the minimum required agency to be **14.2318**.
 * **Apply:** By clicking **Apply Threshold Agency**, $E_L$ is updated to ~14.24.
 * **Validation:** The new simulation run remains below $\Theta = 1.0$ for the entire 20-step duration, effectively "hacking" the standard consensus-limit.
+---
+
+### 🛠️ Troubleshooting & System Stability
+
+To maintain the high-precision 50-dps environment, researchers should be aware of the following known technical edge cases:
+
+### 1. The Matplotlib LaTeX Crash (`ValueError`)
+* **The Error:** "Expected end of text, found '$'..."
+* **The Cause:** This occurs when the Matplotlib backend fails to parse complex LaTeX symbols like $\Theta$ or $E_L$ within the dynamic plot labels.
+* **The Fix:** Ensure all axis label strings in `reality_dashboard.py` use the **raw string prefix** (e.g., `ax.set_ylabel(r"Transition Ratio (\Theta)")`) or use standard text labels if the error persists.
+
+### 2. Rendering Timeout (`NoneType` Object Error)
+* **The Error:** `TypeError: 'NoneType' object is not subscriptable`
+* **The Cause:** This is often a secondary symptom of a plotting crash where the Streamlit UI tries to render a figure object that failed to generate.
+* **The Fix:** Refresh the browser page or re-apply the **Threshold Agency** to force a clean re-draw of the simulation data.
+
+### 3. Logic-Lock Inconsistency
+* **The Symptom:** Survival steps do not match the predicted **Optimizer** output.
+* **The Cause:** High **Entropy Flux** (above 0.25) introduces geometric instability that can lead to "sudden death" collapses before the predicted step.
+* **The Fix:** Reduce the Flux slider to **0.15** to establish a more predictable research baseline before testing extreme environmental stress.
+
