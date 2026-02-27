@@ -49,6 +49,13 @@ Visualize the boundary between the Quantum Haven (Observer-dominated) and the Cl
 Identify and export statistical outliers—states that remain "Undecidable" beyond standard logical limits.
 
 ---
+### 📖 Foundational AxiomsAll 
+#### code in this repository is grounded in the following mathematical constraints:
+* Quantum Condition: $\Theta < 1.0$ (Observer Agency > Environmental Weight)
+* Collapse Condition: $\Theta \geq 1.0$ (Environmental Weight > Observer Agency)
+
+For a detailed step-by-step walkthrough, refer to the [Quick-Start Instructions](Quick-Start%20Instructions.md)
+
 
 
 
