@@ -1,8 +1,7 @@
 # The Participatory Microstate Lab: Master Research Suite
 #### A Logic-First Simulation Suite for Emergent Reality
 
-### GitHub Repository: [
-(https://github.com/roguemage-cyberzen/The-Participatory-Microstate-An-Observer-Based-Model-of-Emergent-Reality/tree/main)]
+### GitHub Repository: (https://github.com/roguemage-cyberzen/The-Participatory-Microstate-An-Observer-Based-Model-of-Emergent-Reality/tree/main)
 ## Project Overview
 This project simulates an observer-centric universe where **Matter emerges from Consciousness**. Based on the 'Participatory Microstate' whitepaper, the suite uses Mathematical Logic and High-Precision Arithmetic to model how individual **Logical Agency ($E_L$)** resists the 'Collective Weight' of shared observation to maintain quantum superpositions. This tool acts as the computational engine for the participatory universe, consolidating theoretical equations into a testable laboratory.
 
