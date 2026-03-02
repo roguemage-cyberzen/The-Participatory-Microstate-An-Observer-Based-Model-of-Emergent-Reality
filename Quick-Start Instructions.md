@@ -5,7 +5,7 @@ Follow these steps to initialize your environment and begin "hacking" reality us
 ---
 
 ### Step 1: Command Line Operations (The CLI Entry)
-Before launching visual tools, enter the project environment via your terminal. Ensure you are in the `PROJECT_11` directory.
+Before launching visual tools, enter the project environment via your terminal.
 
 #### Launch the Master Control
 The **Master Control** acts as your OS-style hub for all logical operations:
